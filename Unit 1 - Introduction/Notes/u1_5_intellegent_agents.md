@@ -1,3 +1,49 @@
+# What is an AI Agent?
+An AI agent is an entity that perceives its environment through sensors and acts upon it using actuators to achieve specific goals. It can be anything from a software program to a physical robot, reacting and adapting to its environment based on predefined objectives.
+
+## Components of an AI Agent
+An AI agent typically has the following components:
+
+**Sensors:** Gather information about the environment, such as cameras or microphones.
+
+**Actuators:** Allow the agent to perform actions in the environment, like motors or wheels.
+
+**Performance Measure:** Defines how well the agent is achieving its goals. It serves as a metric of success.
+
+**Environment:** The world or context the agent operates in, which includes everything the agent can interact with.
+
+## Types of AI Agents
+AI agents can be classified into different types based on their behavior and the complexity of their operations:
+
+| Agent Type | Description
+| ------------- | ------------- |
+| **Simple Reflex** |  React only to the current percept (observation) and do not have memory or the ability to reason about past events.
+| **Model-Based** | These agents maintain an internal model of the world, allowing them to base decisions not only on the current percept but also on memory of past states.
+| **Goal-Based** | These agents are driven by specific goals. They evaluate possible actions based on how likely they are to achieve their goals.
+| **Utility-Based** | These agents make decisions by selecting actions that maximize their expected long-term utility or performance. They often handle trade-offs between competing goals.
+| **Learning Agent** | These agents can learn from experience, improving their performance over time based on past experiences or observations.
+
+## Designing an AI Agent
+The design process for creating an AI agent involves several steps:
+
+- Define the problem and understand the environment in which the agent will operate.
+- Specify the performance measure that defines the agent's success.
+- Identify sensors that the agent will use to perceive the environment.
+- Select actuators that the agent will use to act upon the environment.
+- Choose the appropriate type of agent based on the task and problem complexity.
+- Implement the agent using AI techniques like search, machine learning, or logic-based reasoning.
+
+#### Why Do Agent Types Matter?
+Choosing the right type of agent depends on the task at hand:
+
+- Simple Reflex Agents are suitable for tasks that involve minimal processing or immediate, reactive actions (e.g., a thermostat).
+- Model-Based Reflex Agents are useful when the task requires memory of past actions and states (e.g., a robot that needs to remember previously cleaned areas).
+- Goal-Based Agents excel in tasks where long-term planning and goal achievement are required (e.g., a chess-playing AI).
+- Utility-Based Agents are ideal for tasks that involve balancing multiple competing objectives (e.g., a self-driving car that maximizes safety, speed, and comfort).
+- Learning Agents are crucial for tasks where continuous improvement and adaptation are needed (e.g., an AI that improves its performance over time based on feedback).
+
+----
+
 # What is PEAS?
 PEAS stands for:
 - Performance measure
@@ -59,16 +105,6 @@ When given a problem like "build an AI to play a board game" or "build an AI tha
     - Goals or utilities
 1. Choose the right type of agent
 1. Then apply search, logic, learning, etc.
-
-#### Agent types
-
-| Agent Type | Description
-| ------------- | ------------- |
-| **Simple Reflex** | Reacts to current percept only (no memory or reasoning)
-| **Model-Based** | Maintains an internal state to track the world
-| **Goal-Based** | Has specific goals; chooses actions that achieve them
-| **Utility-Based** | Chooses actions to maximize long-term usefulness
-| **Learning Agent** | Learns from experience to improve its performance
 
 #### Examples of choosing agent types
 Once PEAS is defined, we can ask:
