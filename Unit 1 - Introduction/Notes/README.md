@@ -49,6 +49,33 @@ AI is used in healthcare, finance, self-driving cars, virtual assistants, fraud 
 - Metrics: Accuracy, Precision, Recall, F1 Score, MSE
 - Techniques: Feature engineering, hyperparameter tuning, regularization, cross-validation, ensemble methods
 
+## AI agents
+
+An AI agent perceives its environment with sensors and acts using actuators to achieve goals. It can be software or a robot.
+
+#### Components:
+**Sensors:** Collect data (e.g., cameras).
+
+**Actuators:** Perform actions (e.g., motors).
+
+**Performance Measure:** Defines success.
+
+**Environment:** The context where the agent operates.
+
+#### Types of AI Agents:
+- Simple Reflex: Reacts to current stimuli.
+- Model-Based: Uses memory of past states.
+- Goal-Based: Focuses on achieving goals.
+- Utility-Based: Chooses actions maximizing long-term benefits.
+- Learning: Improves over time based on experience.
+
+#### PEAS Framework:
+PEAS (Performance Measure, Environment, Actuators, Sensors) helps define AI tasks clearly.
+
+Example:
+
+Vacuum Cleaner: Performance (cleanliness), Environment (house), Actuators (wheels), Sensors (dirt sensors).
+
 ---
 
 # Personal thoughts
@@ -58,7 +85,9 @@ In this unit, I did not learn much due to two reasons:
 
 First, I already have basic knowledge about AI and its usage in general, and secondly, the advanced keywords feel overwhelming so my brain just shut off when I tried to learn those parts.
 
-Hence I decided to feel satisfied that I at least learned the difference between supervised and non-supervised learning and the fact that many algorithms exists in AI.
+PEAS and agents feel new to me, I had an expectation that AI is simply = math + code, but it seems like one does not directly make models.
+
+I decided to feel satisfied that I at least learned the difference between supervised and non-supervised learning and the fact that many algorithms exists in AI.
 
 Going forward, I hope to get a deeper knowledge about AI, so in a part, I'm exicted, but also worried about the math part. I'll let future me (hopefully soon) deal with such issues.
 
