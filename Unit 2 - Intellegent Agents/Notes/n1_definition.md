@@ -70,3 +70,32 @@ When given a problem like "build an AI to play a board game" or "build an AI tha
 | **Utility-Based** | Chooses actions to maximize long-term usefulness
 | **Learning Agent** | Learns from experience to improve its performance
 
+#### Examples of choosing agent types
+Once PEAS is defined, we can ask:
+- Is simple reaction enough?
+- Do I need memory of the past?
+- Do I need planning toward goals?
+- Do I need trade-offs between different good outcomes (utility)?
+- Can the agent learn to improve over time?
+
+**Autonomous Vacuum Cleaner:** 
+Model-Based + Possibly Learning
+- Why? It needs to remember which rooms it cleaned.
+- It may learn to clean more efficiently over time.
+
+**Chess-Playing AI** Goal-Based or Utility-Based
+- Performance = Winning
+- Why? The agent must plan many moves ahead (goal: checkmate).
+- If using evaluation functions (e.g., scoring positions), it's utility-based.
+
+**Other examples:**
+
+| Task | Best Agent Type(s)
+| ------------- | ------------- |
+| Thermostat | Simple Reflex |
+| Vacuum robot | Model-Based, possibly Learning |
+| Self-driving car | Utility-Based + Learning |
+| Web search engine | Utility-Based |
+| Game-playing AI (chess, Go) | Goal-Based or Utility-Based |
+| AI assistant (e.g., Siri) | Utility-Based + Learning |
+
