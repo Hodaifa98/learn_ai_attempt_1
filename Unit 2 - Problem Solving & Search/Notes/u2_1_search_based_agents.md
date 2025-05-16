@@ -1,4 +1,4 @@
-# Problem formulation
+# Unit2-1. Problem formulation
 
 Every search-based agent follows these steps:
 1. Define the problem formally
