@@ -40,7 +40,7 @@ x == 2 or y == 2
 At any state, the agent can perform the following actions:
 
 | Action | Description | Format |
-| ---------- | --------------------- |
+| ---------- | --------------------- | ---------- |
 | `Fill4`    | Fill the 4L jug | (4, y) |
 | `Fill3`    | Fill the 3L jug | (x, 3) |
 | `Empty4`   | Empty the 4L jug | (0, y) |
